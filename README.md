@@ -38,6 +38,7 @@ To deploy the entire ecosystem including PostgreSQL, ChromaDB, and the FastAPI b
 
 ```bash
 docker-compose up --build
+```
 
 ---
 **Developed by David Serrano Franco**
