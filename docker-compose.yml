@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database Service
+  postgres:
+    image: postgres:15-alpine
+    container_name: multi_agent_postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: multi_agent_db
+    ports:
+      - "5432:5432"
+    volumes:
+      # Persist data even if the container is destroyed
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  # Define the named volume
+  postgres_data:

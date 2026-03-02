@@ -1,0 +1,52 @@
+# --- Python Environment ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Environment Variables & Secrets ---
+# Crucial: Never commit your API keys or secrets
+.env
+*.env
+.secrets
+.venv
+
+# --- Vector Database & Local Storage ---
+# Local ChromaDB data or temporary vector stores
+chroma_db/
+vector_store/
+*.db
+*.sqlite3
+
+# --- OS Specific Files ---
+# MacOS system files
+.DS_Store
+Thumbs.db
+
+# --- Logs & Performance Tracking ---
+# Application logs and celery/redis temporary files
+*.log
+logs/
+.celery/
+.redis/
+
+# --- IDEs & Editors ---
+# VS Code, PyCharm, and other editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Testing & Coverage ---
+.pytest_cache/
+htmlcov/
+.coverage

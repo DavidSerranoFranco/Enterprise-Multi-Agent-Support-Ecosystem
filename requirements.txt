@@ -1,0 +1,44 @@
+# Web Framework & Server
+fastapi
+uvicorn[standard]
+python-multipart
+websockets
+httpx
+
+# Configuration
+python-dotenv
+pydantic
+pydantic-settings
+
+# Database & ORM
+sqlalchemy
+asyncpg
+psycopg2-binary
+alembic
+redis
+
+# AI & LLM Tools
+langchain
+langchain-openai
+langchain-anthropic
+langchain-community
+openai
+anthropic
+tiktoken
+
+# Vector Store (RAG)
+chromadb
+sentence-transformers
+
+# Data Processing & Utilities
+numpy
+pandas
+PyPDF2
+python-docx
+beautifulsoup4
+celery
+tenacity
+
+# Testing
+pytest
+pytest-asyncio
