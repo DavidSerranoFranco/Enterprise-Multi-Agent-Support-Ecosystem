@@ -42,4 +42,4 @@ docker-compose up --build
 
 ---
 **Developed by David Serrano Franco**
-Data Engineer | AI Engineer & AI Architect
+Data Engineer | AI Engineer & AI/MLOps Architect
