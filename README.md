@@ -1,6 +1,6 @@
 # Enterprise Multi-Agent Support Ecosystem (RAG-Powered)
 
-## Executive Summary
+## Summary
 
 This project is a production-grade backend infrastructure designed to automate complex customer support workflows using Generative AI. It implements a sophisticated Multi-Agent Orchestration architecture that dynamically classifies user intent and routes queries to specialized agents. By leveraging Retrieval-Augmented Generation (RAG), the system ensures all AI responses are grounded in verified corporate documentation, effectively eliminating hallucinations.
 
